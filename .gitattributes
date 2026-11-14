@@ -1,0 +1,4 @@
+*.java text eol=lf
+outputs.txt text eol=lf
+input.txt text eol=lf
+*.md text eol=lf
