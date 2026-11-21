@@ -11,7 +11,7 @@ repo นี้สร้างจาก template ของรายวิชา 3
 **ทุกงาน** (เช่น Assignment 1 ใช้โฟลเดอร์ `Assignment1` ตามที่ประกาศพร้อมโจทย์)
 1. ที่ root ของ repo: `java NewTask Assignment1` จะได้โฟลเดอร์ `Assignment1/` ที่มี `PROCESS.md`, `ai-log/`, `Run.java`, `outputs.txt`
 2. `cd Assignment1` กรอก `PROCESS.md` ขั้น 1 แล้ว commit + push **ก่อนเปิด AI และก่อนเขียนโค้ด**
-3. ใช้ AI แบบแชตกับ tutor prompt และเก็บบทสนทนาใน `ai-log/` เป็น `.md` หรือ PDF (ไม่ใช้ AI: `ai-log/NONE.md` และต้อง viva)
+3. ใช้ AI แบบแชตกับ tutor prompt และเก็บบทสนทนาใน `ai-log/` เป็นไฟล์ข้อความ `.md` หรือ `.txt` เท่านั้น ห้ามส่ง PDF หรือรูปภาพ (ไม่ใช้ AI: `ai-log/NONE.md` และต้อง viva)
 4. compile ด้วย `javac *.java` แล้วรันด้วย `java Run <ชื่อคลาส>` เท่านั้น (ผลถูกบันทึกลง `outputs.txt` เอง ห้ามแก้ `outputs.txt` และ `Run.java`) และ commit + push หลังรันแต่ละครั้ง
 5. ติ๊กคำรับรองท้าย `PROCESS.md` ใน commit สุดท้าย แล้วส่ง URL ของ repo นี้ + SHA เต็ม 40 ตัว (`git rev-parse HEAD`) ผ่าน Google Form ส่งงานภายใน deadline
 
